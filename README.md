@@ -1,4 +1,4 @@
-# Personal Projects 🚀
+# Small Projects 
 
 This repository contains my personal projects.
 
