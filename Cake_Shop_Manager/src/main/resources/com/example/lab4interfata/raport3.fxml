@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefWidth="458.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4interfata.Raport3Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label contentDisplay="CENTER" text="Cele mai des comandate torturi:" textAlignment="CENTER" textFill="#1e00ff" />
+
+        <!-- TableView to display most ordered cakes -->
+        <TableView fx:id="TorturiTableView" prefHeight="300.0" prefWidth="400.0">
+            <!-- Define the columns -->
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID Tort" prefWidth="100.0" />
+                <TableColumn fx:id="typeColumn" text="Tip Tort" prefWidth="200.0" />
+                <TableColumn fx:id="orderCountColumn" text="Număr Comenzi" prefWidth="100.0" />
+            </columns>
+        </TableView>
+
+        <Button onAction="#onActionClose" text="Inchide" />
+    </children>
+</VBox>
+
