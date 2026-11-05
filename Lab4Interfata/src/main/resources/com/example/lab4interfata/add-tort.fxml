@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefWidth="458.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4interfata.AddTortController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label contentDisplay="CENTER" text="Introduceti id-ul noului tort:" textAlignment="CENTER" textFill="#1e00ff" />
+        <TextField fx:id="IdTortTextField" promptText="ID Tort" />
+      <Label text="Introduceti tipul noului tort:" textFill="#1e00ff" />
+        <TextField fx:id="TipTortTextField" promptText="Tip Tort" />
+        <Button onAction="#onActionAdaugaTort" text="Adauga" />
+        <Label fx:id="Mesaj" />
+    </children>
+</VBox>

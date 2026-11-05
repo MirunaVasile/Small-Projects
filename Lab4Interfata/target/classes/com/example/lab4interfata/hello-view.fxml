@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefWidth="458.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4interfata.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label contentDisplay="CENTER" graphicTextGap="5.0" text="LABORATOR 4 - Vasile Miruna" textAlignment="CENTER" textFill="#993f93" underline="true">
+         <effect>
+            <Glow level="0.53" />
+         </effect>
+      </Label>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Tort">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onActionAdaugaTort" text="Adauga Tort" />
+                  <MenuItem mnemonicParsing="false" onAction="#onActionStergeTort" text="Sterge Tort" />
+                  <MenuItem mnemonicParsing="false" onAction="#onActionUpdateTort" text="Modifica Tort" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Comanda">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onActionAdaugaComanda" text="Adauga Comanda" />
+                  <MenuItem mnemonicParsing="false" onAction="#onActionStergeComanda" text="Sterge Comanda" />
+                  <MenuItem mnemonicParsing="false" onAction="#onActionModificaComanda" text="Modifica Comanda" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Vizualizare">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onActionAfiseazaTorturi" text="Afiseaza Torturi" />
+                  <MenuItem mnemonicParsing="false" onAction="#onActionAfiseazaComenzi" text="Afiseaza Comenzi" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Rapoarte">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="Numărul de torturi comandate în fiecare zi" onAction="#onActionRaport1" />
+                  <MenuItem mnemonicParsing="false" text="Numărul de torturi comandate în fiecare lună a anului" onAction="#onActionRaport2"/>
+                <MenuItem mnemonicParsing="false" text="Cele mai des comandate torturi" onAction="#onActionRaport3"/>
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <VBox prefHeight="85.0" prefWidth="418.0">
+         <children>
+            <Separator prefWidth="200.0" />
+            <DialogPane fx:id="Mesaj" prefHeight="36.0" prefWidth="418.0" />
+         </children>
+      </VBox>
+   </children>
+</VBox>
