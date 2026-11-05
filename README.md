@@ -1,8 +1,14 @@
 # Small Projects 
 
-This repository contains my personal projects.
+This repository contains my first small projects.
+
+---
 
 ## Projects:
-- ⏳ *Egg Timer* – An egg timer app using Tkinter to help you perfectly boil your eggs.
+- ⏳ *Egg Timer* – An egg timer Python app using Tkinter to help you perfectly boil your eggs. (Pixel art made by me)
 
-Each project has its own directory with more details.
+![egg_animation](screenshots/egg_timer_video.gif)
+
+---
+
+
