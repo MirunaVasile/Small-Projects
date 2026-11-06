@@ -12,8 +12,10 @@ This repository contains my first small projects, the beginnings of my journey, 
 ---
 
 - 🍰 *Cake-Manager-App* - My first GUI application, built with Java and JavaFX: an order management system for cakes, with menus, forms, a DatePicker, lists and tables.
-| ![torturi](screenshots/comenzi.png) | ![torturi2](screenshots/egg_timer_video.gif) | 
 
+| Modifică comandă | Vizualizare comenzi |
+|:---:|:---:|
+| ![Update](screenshots/update_comanda.png) | ![Comenzi](screenshots/comenzi.png) |
 ---
 
 
